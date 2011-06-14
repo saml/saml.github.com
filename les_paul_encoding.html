@@ -201,12 +201,13 @@
                 };
 
                 var initClickNote = function() {
-                    jQuery("td.note").toggle(function() {
-                        this.style.backgroundColor = "black";
-                        jQuery(this).removeClass("off").addClass("on");
-                    }, function() {
-                        this.style.backgroundColor = "transparent";
-                        jQuery(this).removeClass("on").addClass("off");
+                    jQuery("td.note").live('click', function() {
+                        var jq = jQuery(this);
+                        if (jq.hasClass("on")) {
+                            jq.removeClass("on").addClass("off");
+                        } else if (jq.hasClass("off")) {
+                            jq.removeClass("off").addClass("on");
+                        }
                     });
                 };
                 
@@ -214,6 +215,7 @@
                     jQuery("#doit").click(function() {
                         var interval = parseInt(jQuery("#interval").val(), 10);
                         var chunks = [];
+                        var delay = 0;
                         for (var i = 0; ; i++) {
                             var l = [];
                             var jq = jQuery(".index-" + i);
@@ -229,7 +231,14 @@
                                     }
                                 }
                             });
-                            chunks.push(Chunk(l, interval * i));
+
+                            chunks.push(Chunk(l, delay));
+
+                            if (l.length < 1) {//empty column.
+                                delay += interval;//increase delay for the next column
+                            } else {
+                               delay = interval;
+                            }
                         }
 
                         var bits = [];
@@ -246,16 +255,48 @@
                     });
                 };
 
+                var initFormSubmit = function() {
+                    jQuery("form").submit(function() {
+                        return false;
+                    });
+                };
+
+                var initClickAddMoreColumns = function() {
+                    jQuery("#add-columns").click(function() {
+                        jQuery("tr.note").append('<td class="note off"></td>');
+                        initNoteIndex();
+                    });
+                };
+
                 initNoteIndex();
                 initClickNote();
                 initClickDoIt();
+                initFormSubmit();
+                initClickAddMoreColumns();
+
+
             });
         </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2157648-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
     </head>
     <body>
         <div>
-            Click grid and Do It!
-            Details <a href="http://github.com/saml/les-paul-encoding">https://github.com/saml/les-paul-encoding</a>
+            Click grid and Do It!<br/>
+            Details: <a href="http://github.com/saml/les-paul-encoding">https://github.com/saml/les-paul-encoding</a>
         </div>
         <table id="grid" border="1">
             <tr class="note" data-note="B2">
@@ -391,9 +432,10 @@
         </table>
 
         <form action="#">
-            Interval: <input type="text" id="interval" value="1" name="interval"/><br/>
-            <button id="doit">Do It</button>
+            <button id="add-columns">Add More</button><br/>
+            Time interval between columns: <input type="text" id="interval" value="2" name="interval"/><br/>
         </form>
+        <button id="doit">Do It</button>
         <div id="output"></div>
     </body>
 </html>
