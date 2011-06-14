@@ -8,10 +8,17 @@
                 width: 10px;
             }
             .off {
-                background: transparent;
+                border: 2px outset white;
             }
             .on {
-                background: black;
+                border: 2px inset black;
+                background: #efd !important;
+            }
+            .group-a {
+                background: #ccc;
+            }
+            .group-b {
+                background: #eee;
             }
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
@@ -58,7 +65,7 @@
                     }
                     return l;
                 };
-                
+
                 var Chunk = function(noteArray, delayFromPrevious) {
                     var me = {};
                     me.noteArray = noteArray;
@@ -183,7 +190,7 @@
                             l.push(alphabet.charAt(64));
                             l.push(alphabet.charAt(64));
                         } else if (bits.length % 24 === 16 + 2) {
-                            
+
                             l.push(alphabet.charAt(64));
                         }
                         return l.join("");
@@ -210,7 +217,7 @@
                         }
                     });
                 };
-                
+
                 var initClickDoIt = function() {
                     jQuery("#doit").click(function() {
                         var interval = parseInt(jQuery("#interval").val(), 10);
@@ -265,7 +272,30 @@
                     jQuery("#add-columns").click(function() {
                         jQuery("tr.note").append('<td class="note off"></td>');
                         initNoteIndex();
+                        initColumnGroup();
                     });
+                };
+
+                var initColumnGroup = function() {
+                    var groupSize = parseInt(jQuery("#column-group-size").val(), 10);
+                    jQuery("tr.note").each(function() {
+                        var i = 0;
+                        var isGroupA = true;
+                        jQuery(this).children("td.note").each(function() {
+                            if (i % groupSize === 0) {
+                                isGroupA = !isGroupA;
+                            }
+
+                            $(this).removeClass("group-a").removeClass("group-b").addClass(isGroupA ? "group-a" : "group-b");
+                            i++;
+                        });
+                    });
+                };
+
+                var initChangeColumnGroup = function() {
+                    jQuery("#column-group-size").change(function() {
+                        initColumnGroup();
+                    })
                 };
 
                 initNoteIndex();
@@ -273,7 +303,7 @@
                 initClickDoIt();
                 initFormSubmit();
                 initClickAddMoreColumns();
-
+                initColumnGroup();
 
             });
         </script>
@@ -432,8 +462,9 @@
         </table>
 
         <form action="#">
-            <button id="add-columns">Add More</button><br/>
-            Time interval between columns: <input type="text" id="interval" value="2" name="interval"/><br/>
+            <button id="add-columns">Add More Columns</button><br/>
+            Column group size: <input type="text" id="column-group-size" value="4" name="column-group-size"/><br/>
+            Time interval between columns: <input type="text" id="interval" value="5" name="interval"/><br/>
         </form>
         <button id="doit">Do It</button>
         <div id="output"></div>
