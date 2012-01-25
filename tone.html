@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Audio Write Example</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/tone/tone.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        var audioOut = AudioOut();
+        audioOut.readFn = audioOut.sineGenerator(window.parseFloat(document.getElementById('freq').value), 1000);
+
+        jQuery('#play').click(function() {
+            audioOut.start();
+        });
+        jQuery('#stop').click(function() {
+            audioOut.stop();
+        });
+    });
+    </script>
+  </head>
+  <body>
+    <input type="text" size="4" id="freq" value="440"><label for="hz">Hz</label>
+    <button id="play">play</button>
+    <button id="stop">stop</button>
+    
+  </body>
+</html>
