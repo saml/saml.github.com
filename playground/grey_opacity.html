@@ -4,7 +4,31 @@
 <meta charset="utf-8" />
 <title>Grey Image/Opacity Change</title>
 
+<link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+
+</head>
+<body>
+<h1>copy and paste image url as hash</h1>
+<div>for example, <a href="#https://encrypted-tbn1.google.com/images?q=tbn:ANd9GcRjkXBBH2efPWFp-krMbaMo2D4OiUCgBjh_tt4i6xGJoA6xTpEn">/playground/grey_opacity.html#https://encrypted-tbn1.google.com/images?q=tbn:ANd9GcRjkXBBH2efPWFp-krMbaMo2D4OiUCgBjh_tt4i6xGJoA6xTpEn</a></div>
+
+<br/>
+
+<div id="wrapper"></div>
+
+<br/>
+
+<form onsubmit="return false;">
+<label>opacity of image</label>
+<input id="opacity" name="opacity" value="0.5"/><br/>
+<label>background color of image</label>
+<input id="background" name="background" value="#000"/>
+</form>
+
+<div id="canvas_wrap"></div>
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="../assetse/js/bootstrap.js"></script>
 
 <script type="text/javascript">
 var ImageLoader = function(config) {
@@ -58,30 +82,97 @@ var ImageLoader = function(config) {
     return me;
 };
 
+var canvasGrey = function(img) {
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    var w = img.width;
+    var h = img.height;
+
+    //canvas.width = w;
+    //canvas.height = h;
+
+    ctx.drawImage(img, 0, 0);
+
+    var pixels = ctx.getImageData(0,0,canvas.width,canvas.height);
+    var data = pixels.data;
+    var n = data.length;
+    var i = 0;
+    for (; i < n; i += 4) {
+        var r = data[i];
+        var g = data[i+1];
+        var b = data[i+2];
+        var v = 0.2126*r + 0.7152*g + 0.0722*b;
+        data[i] = r;
+        data[i+1] = g;
+        data[i+2] = b;
+    }
+
+    ctx.putImageData(pixels, 0, 0);
+
+    return canvas.toDataURL();
+};
+
+
+
+var get_img_url = function() {
+    return window.location.hash.substr(1);
+};
+
+var CanvasImgLoader = function() {
+    var img = new Image();
+    var grey_img = new Image();
+    var wrap = jQuery("#canvas_wrap");
+    var image = jQuery(img);
+    var grey_image = jQuery(grey_img);
+
+    var img_url = '';
+    var grey_img_url = '';
+/*
+    grey_image.load(function() {
+        image.hide();
+    });
+*/
+    image.load(function() {
+        wrap.width(img.width);
+        wrap.height(img.height);
+
+        grey_img.src = canvasGrey(img);
+        console.debug(grey_img);
+    });
+
+    wrap.hover(function() {
+        image.show();
+        grey_image.hide();
+    }, function() {
+        grey_image.show();
+        image.hide();
+    });
+
+    wrap.append(grey_img);
+    wrap.append(img);
+
+    var me = {};
+    me.reload = function(url) {
+        img.src = url;
+    };
+
+    return me;
+};
+
+
 jQuery(document).ready(function() {
     var loader = ImageLoader();
-    loader.reload(window.location.hash.substr(1));
+    var canvas_loader = CanvasImgLoader();
+
+    loader.reload(get_img_url());
+    canvas_loader.reload(get_img_url());
+
     jQuery(window).bind('hashchange', function() {
-        loader.reload(window.location.hash.substr(1));
+        loader.reload(get_img_url());
+        canvas_loader.reload(get_img_url());
     });
 });
 </script>
-</head>
-<body>
-<h1>copy and paste image url as hash</h1>
-<div>for example, <a href="/playground/grey_opacity.html#https://encrypted-tbn1.google.com/images?q=tbn:ANd9GcRjkXBBH2efPWFp-krMbaMo2D4OiUCgBjh_tt4i6xGJoA6xTpEn">http://saml.github.com/playground/grey_opacity.html#https://encrypted-tbn1.google.com/images?q=tbn:ANd9GcRjkXBBH2efPWFp-krMbaMo2D4OiUCgBjh_tt4i6xGJoA6xTpEn</a></div>
 
-<br/>
-
-<div id="wrapper"></div>
-
-<br/>
-
-<form onsubmit="return false;">
-<label>opacity of image</label>
-<input id="opacity" name="opacity" value="0.5"/><br/>
-<label>background color of image</label>
-<input id="background" name="background" value="#000"/>
-</form>
 </body>
 </html>
