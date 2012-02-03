@@ -26,6 +26,7 @@
 </form>
 
 <div id="canvas_wrap"></div>
+<div id="canvas_wrap_output" class="error" style="display: none;">Please use image hosted on a server with CORS enabled.</div>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="../assetse/js/bootstrap.js"></script>
@@ -41,7 +42,7 @@ var ImageLoader = function(config) {
     var img = new Image();
     var wrap = config.wrap || jQuery('#wrapper');
     var image = jQuery(img);
-    
+
     var opacity = config.opacity || 0.5;
     var background = config.background || '#000';
 
@@ -85,11 +86,12 @@ var ImageLoader = function(config) {
 var canvasGrey = function(img) {
     var canvas = document.createElement('canvas');
     var ctx = canvas.getContext('2d');
+
     var w = img.width;
     var h = img.height;
 
-    //canvas.width = w;
-    //canvas.height = h;
+    canvas.width = w;
+    canvas.height = h;
 
     ctx.drawImage(img, 0, 0);
 
@@ -102,9 +104,9 @@ var canvasGrey = function(img) {
         var g = data[i+1];
         var b = data[i+2];
         var v = 0.2126*r + 0.7152*g + 0.0722*b;
-        data[i] = r;
-        data[i+1] = g;
-        data[i+2] = b;
+        data[i] = v;
+        data[i+1] = v;
+        data[i+2] = v;
     }
 
     ctx.putImageData(pixels, 0, 0);
@@ -120,6 +122,7 @@ var get_img_url = function() {
 
 var CanvasImgLoader = function() {
     var img = new Image();
+    img.crossOrigin = 'anonymous';
     var grey_img = new Image();
     var wrap = jQuery("#canvas_wrap");
     var image = jQuery(img);
@@ -127,17 +130,14 @@ var CanvasImgLoader = function() {
 
     var img_url = '';
     var grey_img_url = '';
-/*
-    grey_image.load(function() {
-        image.hide();
-    });
-*/
+
+    var output = jQuery('#canvas_wrap_output');
+
     image.load(function() {
         wrap.width(img.width);
         wrap.height(img.height);
 
         grey_img.src = canvasGrey(img);
-        console.debug(grey_img);
     });
 
     wrap.hover(function() {
@@ -150,6 +150,7 @@ var CanvasImgLoader = function() {
 
     wrap.append(grey_img);
     wrap.append(img);
+    image.hide();
 
     var me = {};
     me.reload = function(url) {
