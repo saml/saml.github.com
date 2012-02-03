@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Grey Image/Opacity Change</title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var img_url = window.location.hash.substr(1);
+    var img = new Image();
+    var wrap = jQuery("#wrapper");
+    image = jQuery(img);
+    
+    var opacity = 0.5;
+    var background = "#000";
+
+    
+    image.load(function() {
+        wrap.width(img.width);
+        wrap.height(img.height);
+
+        var jq_opacity = jQuery('#opacity');
+        var jq_background = jQuery('#background');
+        
+        jq_opacity.change(function() {
+            var x = parseFloat(jQuery(this).val());
+            opacity = isNaN(x) ? opacity : x;
+        });
+
+        jq_background.change(function() {
+            background = jQuery(this).val();
+            wrap.css("background", background);
+        });
+
+        wrap.hover(function() {
+            image.fadeTo('fast', 1.0);
+        }, function() {
+            image.fadeTo('fast', opacity);
+        });
+
+        jq_background.change();
+        jq_opacity.change();
+        image.fadeTo(0, opacity);
+    });
+
+    img.id = 'image';
+    img.src = img_url;
+    wrap.append(img);
+
+});
+</script>
+</head>
+<body>
+<div id="wrapper"></div>
+<form onsubmit="return false;">
+<label>opacity of image</label>
+<input id="opacity" name="opacity" value="0.5"/><br/>
+<label>background color of image</label>
+<input id="background" name="background" value="#000"/>
+</form>
+</body>
+</html>
