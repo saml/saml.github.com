@@ -1,0 +1,109 @@
+---
+layout: default
+---
+<div id="output"></div>
+<script>
+if (typeof String.prototype.f !== 'function') {
+    String.prototype.f = function() {
+        var args = arguments;
+        var index = 0;
+        var replace = function() {
+            return args[index++];
+        };
+        return this.replace(/%s/g, replace);
+    };
+}
+
+var Graph = function(vertices, edges) {
+    var me = {};
+    var _d = {};
+
+    if (typeof vertices === 'undefined') {
+        vertices = [];
+    }
+
+    if (typeof edges === 'undefined') {
+        edges = [];
+    }
+
+    me.add_vertex = function(vertex) {
+        _d[vertex] = {};
+    };
+
+    me.add_edge = function(edge) {
+        var vertex = _d[edge.from];
+        if (typeof vertex === 'object') {
+            vertex[edge.to] = edge;
+        }
+
+    };
+    
+    var _show = function(from, to) {
+        return '%s -> %s'.f(from, to);
+    };
+
+    me.show = function(sep) {
+        var l = [];
+        if (typeof sep === 'undefined') {
+            sep = '\n';
+        }
+        
+        for (var from in _d) {
+            var candidates = _d[from];
+            for (var to in candidates) {
+                var edge = candidates[to];
+                l.push(_show(edge.from.value, edge.to.value));
+            }
+        }
+        return l.join(sep);
+    };
+
+    (function() {
+        vertices.forEach(function(x) {
+            me.add_vertex(x);
+        });
+
+        edges.forEach(function(x) {
+            me.add_edge(x);
+        });
+    }());
+
+    me._d = _d;
+    return me;
+};
+
+var Vertex = function(value) {
+    if (!value) {
+        throw 'u craz';
+    }
+    
+    var me = {};
+    me.value = value;
+    var str = '%s'.f(value);
+    me.toString = function() {
+        return str;
+    };
+    return me;
+};
+
+var Edge = function(from, to) {
+    var me = {};
+    me.from = from;
+    me.to = to;
+    return me;
+};
+
+g = Graph();
+var a = Vertex('A');
+var b = Vertex('B');
+var c = Vertex('C');
+
+g.add_vertex(a);
+g.add_vertex(b);
+g.add_vertex(c);
+g.add_edge(Edge(a, b));
+g.add_edge(Edge(a, c));
+
+document.getElementById('output').innerHTML = g.show('<br />');
+</script>
+
