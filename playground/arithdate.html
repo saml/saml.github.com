@@ -1,0 +1,63 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+	<script type="text/javascript">
+		<!--
+		//<![CDATA[
+		function arithedate_eval(i) {
+			var date_idx = i.search(/\d+\/\d{1,2}\/\d{1,2}\s*[+-]/);
+			var error_mesg = "please write YYYY/MM/DD + (or -) NumberOfDays";
+			if(-1 == date_idx) {
+				return error_mesg;
+			}
+
+			var whole_str = i.substring(date_idx);
+			var expression_idx = whole_str.search(/[+-]/);//this is never -1.
+			var date_str = whole_str.substring(0, expression_idx);
+
+			try {
+				var date_str_arr = date_str.split("/");
+				var year_str = date_str_arr[0];
+				var month_str = date_str_arr[1];
+				var day_str = date_str_arr[2];
+
+				var tmp_date = new Date(date_str);
+				if( tmp_date.getDate() != day_str
+						|| (tmp_date.getMonth() + 1) != month_str
+						|| tmp_date.getFullYear() != year_str ) {
+					throw date_str;
+				}
+
+				var expression_str = whole_str.substring(expression_idx);
+				var result_millisec = Date.parse(date_str);
+				if(!result_millisec) {
+					return date_str + " is not parsable. "+error_mesg;
+				}
+				var expression_result = eval(expression_str);
+				var result_date = new Date(result_millisec +
+						expression_result*24*60*60*1000);
+				return Math.abs(expression_result) +
+					(1 == expression_result
+					 || -1 == expression_result ? " day ":" days ") +
+					(expression_result < 0 ? "before " : "after ") +
+					date_str + " is " +
+					result_date.getFullYear()+"/" +(result_date.getMonth()+1)+"/"
+					+result_date.getDate();
+			} catch(e) {
+				return e + " is not parsable. "+error_mesg;
+			}
+		}
+	//]]>
+	//-->
+	</script>
+	</head><body>
+		<form id="arithedate" onsubmit="document.getElementById('arithedate_output').innerHTML = arithedate_eval(this[0].value); return false">
+			<div id="arithedate_output">please write YYYY/MM/DD + (or -) NumberOfDays</div>
+			<div>
+				<input id="arithedate_input" name="input_text" size="32" type="text">
+			</div>
+			<div>
+					example: 2006/04/20 + 1000
+			</div>
+		</form>
+	</body></html>
