@@ -24,15 +24,14 @@ define(['../jquery'], function(jQuery) {
                 resultWidth = width;
                 resultHeight = resultWidth * imgHeight / imgWidth;
             }
-
             return Rectangle(0, 0, resultWidth, resultHeight);
         };
 
         var createThumbnailDataUrl = function(img, width, height) {
             var canvas = document.createElement('canvas');
             var rect = findFittingRectangle(img.width, img.height, width, height);
-            canvas.style.width = rect.width + 'px';
-            canvas.style.height = rect.height + 'px';
+            canvas.width = rect.width;
+            canvas.height = rect.height;
             var ctx = canvas.getContext('2d');
             ctx.clearRect(0, 0, rect.width, rect.height);
             ctx.drawImage(img, 0, 0, rect.width, rect.height);
