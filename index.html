@@ -2,3 +2,25 @@
 layout: default
 ---
 <marquee><a href="//github.com/saml">hello <img src="https://twimg0-a.akamaihd.net/profile_images/2330482949/wx9yexk2y85sf4wmm7z8.png"></a></marquee>
+<p id="emoticon">
+(°͡ ʖ͜ °͡ )
+</p>
+<style>
+    #emoticon {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 1337%;
+    }
+</style>
+<script>
+    var emoticons = [
+        '( ͡° ͜ʖ ͡°)',
+        '(°͡ ʖ͜ °͡ )',
+        ];
+    var i = 0;
+    var h = window.setInterval(function() {
+        var el = document.getElementById('emoticon');
+        el.innerHTML = emoticons[i++ % emoticons.length];
+    }, 1337);
+</script>
