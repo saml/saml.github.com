@@ -4,7 +4,7 @@ layout: default
 <p id="emoticon">
 (°͡ ʖ͜ °͡ )
 </p>
-<marquee id="marquee"><a href="//github.com/saml">hello <img src="https://twimg0-a.akamaihd.net/profile_images/2330482949/wx9yexk2y85sf4wmm7z8.png"></a></marquee>
+<marquee id="marquee"><a href="//github.com/saml">hello <img src="https://si0.twimg.com/profile_images/3089220028/1de3efc56748eea8f7eecc0336028d12.png"></a></marquee>
 <style>
     #emoticon {
         margin: 0;
@@ -38,7 +38,7 @@ layout: default
     var directions = ['right', 'down', 'left', 'right', 'up', 'left'];
     var blink = window.setInterval(function() {
         //marquee.style.visibility = (new Date).getTime() % 2 ? 'hidden' : 'visible';
-        marquee.scrollAmount = rand(1, 100);
+        marquee.scrollAmount = rand(1, 10);
         var direction = directions[(new Date).getTime() % directions.length];
         if (direction === 'down' || direction === 'top') {
             marquee.behavior = 'scroll';
