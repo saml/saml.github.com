@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-<p id="emoticon">
-(°͡ ʖ͜ °͡ )
-</p>
-<marquee id="marquee"><a href="//github.com/saml">hello <img src="https://si0.twimg.com/profile_images/3089220028/1de3efc56748eea8f7eecc0336028d12.png"></a></marquee>
+<marquee behavior="alternate" id="marquee-emoticon">
+    <p id="emoticon">(°͡ ʖ͜ °͡ )</p>
+</marquee>
+
+<marquee behavior="alternate" id="marquee-logo">
+<a href="//github.com/saml">hello <img src="https://si0.twimg.com/profile_images/3089220028/1de3efc56748eea8f7eecc0336028d12.png"></a>
+</marquee>
 
 <ul class="pages">
     {% for post in site.pages %}
         <li>
-            <span>{{ post.date | date_to_string }}</span> &raquo; 
-                <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}">{{ post.url }}</a>
         </li>
     {% endfor %}
 </ul>
@@ -34,37 +36,28 @@ layout: default
 </style>
 <script>
 (function() {
-    var getHeight = function(el) {
-        var values = [el.scrollHeight, el.offsetHeight, el.clientHeight];
-        return Math.max.apply(null, values);
+    var randomInt = function(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
     };
 
-    var rand = function(min, max) {
-        return Math.random() * (max - min) + min;
-    };
-
-    
     var emoticons = [
         '( ͡° ͜ʖ ͡°)',
         '(°͡ ʖ͜ °͡ )',
         ];
     var emoticon = document.getElementById('emoticon');
-    var marquee = document.getElementById('marquee');
-    marquee.style.height = (getHeight(document.body) - getHeight(emoticon)) - 24 + 'px';
-    var h = window.setInterval(function() {
-        emoticon.innerHTML = emoticons[(new Date).getTime() % emoticons.length];
+    var changeEmoticons = window.setInterval(function() {
+        var i = randomInt(0, emoticons.length - 1);
+        emoticon.innerHTML = emoticons[i];
+    }, 1335);
+
+    var marqueeEmoticon = document.getElementById('marquee-emoticon');
+    var changeEmoticonSpeed = window.setInterval(function() {
+        marqueeEmoticon.scrollAmount =(new Date).getTime() % 100;
     }, 1337);
-    var directions = ['right', 'down', 'left', 'right', 'up', 'left'];
-    var blink = window.setInterval(function() {
-        //marquee.style.visibility = (new Date).getTime() % 2 ? 'hidden' : 'visible';
-        marquee.scrollAmount = rand(1, 10);
-        var direction = directions[(new Date).getTime() % directions.length];
-        if (direction === 'down' || direction === 'top') {
-            marquee.behavior = 'scroll';
-        } else {
-            marquee.behavior = 'alternate';
-        }
-        marquee.direction = direction;
-    }, 111);
+
+    var marqueeLogo = document.getElementById('marquee-logo');
+    var changeLogoSpeed = window.setInterval(function() {
+        marqueeLogo.scrollAmount = (new Date).getTime() % 120;
+    }, 1336);
 }());
 </script>
