@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="container">
+    <article id="content">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        <ul class="post-meta">
+            <li class="author">By <a href="/about" rel="author">saml</a>.</li>
+            {% if page.date %}
+            <li class="publish-date">On {{ page.date | date_to_string }}.</li>
+            {% endif %}
+        </ul>
+    </article>
+</div>

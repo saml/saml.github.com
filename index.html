@@ -1,22 +1,8 @@
 ---
 layout: default
 ---
-<marquee behavior="alternate" id="marquee-emoticon">
-    <p id="emoticon">(°͡ ʖ͜ °͡ )</p>
-</marquee>
-
-<marquee behavior="alternate" id="marquee-logo">
-<a href="//github.com/saml">hello <img src="https://si0.twimg.com/profile_images/3089220028/1de3efc56748eea8f7eecc0336028d12.png"></a>
-</marquee>
-
-<ul class="pages">
-    {% for post in site.pages %}
-        <li>
-            <a href="{{ post.url }}">{{ post.url }}</a>
-        </li>
-    {% endfor %}
-</ul>
-
+<div class="container">
+<h2>Blog Posts</h2>
 <ul class="posts">
     {% for post in site.posts %}
         <li>
@@ -26,38 +12,13 @@ layout: default
     {% endfor %}
 </ul>
 
-<style>
-    #emoticon {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        font-size: 1337%;
-    }
-</style>
-<script>
-(function() {
-    var randomInt = function(min, max) {
-        return Math.floor(Math.random() * (max - min + 1) + min);
-    };
+<h4>Pages</h4>
+<ul class="pages">
+    {% for post in site.pages %}
+        <li>
+            <a href="{{ post.url }}">{{ post.url }}</a>
+        </li>
+    {% endfor %}
+</ul>
+</div>
 
-    var emoticons = [
-        '( ͡° ͜ʖ ͡°)',
-        '(°͡ ʖ͜ °͡ )',
-        ];
-    var emoticon = document.getElementById('emoticon');
-    var changeEmoticons = window.setInterval(function() {
-        var i = randomInt(0, emoticons.length - 1);
-        emoticon.innerHTML = emoticons[i];
-    }, 1335);
-
-    var marqueeEmoticon = document.getElementById('marquee-emoticon');
-    var changeEmoticonSpeed = window.setInterval(function() {
-        marqueeEmoticon.scrollAmount =(new Date).getTime() % 100;
-    }, 1337);
-
-    var marqueeLogo = document.getElementById('marquee-logo');
-    var changeLogoSpeed = window.setInterval(function() {
-        marqueeLogo.scrollAmount = (new Date).getTime() % 120;
-    }, 1336);
-}());
-</script>

@@ -5,6 +5,7 @@ permalink: pretty
 title: "webscale"
 author:
   name: "saml"
+  github: "saml"
 description: "webscale"
 urls:
   base: "http://i.webscale.info"
