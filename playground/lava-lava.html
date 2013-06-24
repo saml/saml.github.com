@@ -1,0 +1,81 @@
+---
+layout: default
+title: Lava Lava
+---
+<canvas id="canvas"></canvas>
+<script>
+    String.prototype.f = function() {
+        var args = arguments;
+        var index = 0;
+        var replace = function() {
+            return args[index++];
+        };
+        return this.replace(/%s/g, replace);
+    };
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+    var toRGB = function(hex) {
+        return {
+            R: (hex & 0xff0000) >> 16, 
+            G: (hex & 0x00ff00) >> 8,
+            B: (hex & 0x0000ff) >> 0
+        };
+    };
+    var distance = function(x1, y1, x2, y2) {
+        var xDelta = x1 - x2;
+        var yDelta = y1 - y2;
+        return Math.sqrt((xDelta * xDelta) + (yDelta * yDelta));
+    };
+    var time = 0;
+    var width = 0;
+    var height = 0;
+    var pixels = undefined;
+    var setPixel = function(x, y, hex) {
+        var color = toRGB(hex);
+        var pos = (x + (y * pixels.width)) * 4;
+        var data = pixels.data;
+        console.debug(color);
+        data[pos  ] = color.R;
+        data[pos+1] = color.G;
+        data[pos+2] = color.B;
+        pixels.data = data;
+    };
+    var onEachFrame = function() {
+        time = new Date().getTime() / 50.0;
+        for (var y = 0; y < height; y++) {
+            for (var x = 0; x < width; x++) {
+                var color = Math.floor(Math.sin(distance(x+time, y, 128.0, 128.0) / 8.0) +
+                    Math.sin(distance(x, y, 64.0, 64.0) / 8.0) +
+                    Math.sin(distance(x, y + (time/7.0), 192.0, 64) / 7.0) +
+                    Math.sin(distance(x, y, 192.0, 100.0) / 8.0) +
+                    4) * 32;
+                color = (color << 16 | (color * 2) << 8 | 255 - color);
+                setPixel(pixels, x, y, color);
+            }
+        }
+        context.putImageData(pixels, 0, 0);
+    };
+
+    var tick = undefined;
+    var drawLava = function() {
+        width = 100;//canvas.width;
+        height = 100;//canvas.height;
+        var black = toRGB(0x555555);
+        context.fillStyle = "rgb(%s,%s,%s)".f(black.R, black.G, black.B);
+        context.fillRect(0, 0, width, height);
+    
+        pixels = context.getImageData(0, 0, width, height);
+        if (tick) {
+            window.clearInterval(tick);
+        }
+        tick = window.setInterval(onEachFrame, 1000);
+    };
+    var draw = function() {
+        canvas.width = 100;//window.innerWidth;
+        canvas.height = 100;//window.innerHeight;
+        drawLava();
+    };
+    window.addEventListener('resize', draw, false);
+    draw();
+</script>
+
