@@ -29,12 +29,14 @@ git commit -m 'fixes #8 can browse through images'
 Then share my branch with others and make a pull request.
 
 ```
-git push -u origin image-browse
+git push origin image-browse
 ```
 
 From then on, you can discuss the pull request with colleagues through github web interface.
 When the pull request is accepted (`image-browse` is merged to `master`), the issue `#8` will be closed automatically.
 And, you can delete `image-browse` branch (github provides a button for that).
 
+If you keep `origin/image-browse`, be very careful not to rebase already published commits, **and publish those to `origin/image-browse`**.
+I remove `origin/image-browser` right away after accepting the pull request.
 
 
