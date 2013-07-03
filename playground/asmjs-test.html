@@ -1,0 +1,47 @@
+---
+layout: default
+title: asm.js test
+---
+
+<script>
+    function MyModule(global) {
+        "use asm";
+
+         var sqrt = global.Math.sqrt;
+
+        function square(x) {
+            x = +x;
+            return +(x * x);
+        }
+
+        function diag(x, y) {
+            x = +x;
+            y = +y;
+            var z = 0.0;
+            var a = 0.0;
+            a = 1.0 + square(x);
+            z = sqrt(a);
+            return +z;
+        }
+
+        return { diag: diag };
+    }
+
+    var asmjs = MyModule(window);
+    var t = new Date();
+    var x = 0;
+    for(var i = 0; i < 1000000; i++) {
+        asmjs.diag(2, 2);
+    }
+    alert((new Date() - t) / 1000);
+/*
+    var noasmjs = MyModule({Math: {sqrt: function(x) { return x * x;}}});
+    t = new Date();
+    var x = 0;
+    for(var i = 0; i < 1000000; i++) {
+        noasmjs.diag(Math.random()*10, Math.random()*10);
+    }
+    alert((new Date() - t) / 1000);
+*/
+</script>
+
