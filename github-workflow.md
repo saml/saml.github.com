@@ -4,14 +4,6 @@ date: 2013-07-22 22:08
 author: saml
 title: Github Workflow
 ---
-
-```bash
-asdf asdf:
-    asdf
-    sdf
-asdf
-```
-
 # Overview
 
 `master` branch is mainline. You work on features. Features are throughly tested.
