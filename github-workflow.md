@@ -78,4 +78,53 @@ Run it: `./github-workflow.sh project-name`. `project-name` directory must not e
 
 It creates a project, goes through two releases, hotfixes, features.. and displays branch graph afterwards.
 
+Result of example run:
 
+```
+*   f23774a (HEAD, tag: v2.0, master) Merge f6
+|\  
+| * 0a2e8d7 f6.b
+| * e905a77 f6.a
+|/  
+*   7d99881 Merge hotfix2
+|\  
+| * c1a1c61 hotfix2.b
+| * bbe4de0 hotfix2.a
+|/  
+*   948b95f Merge hotfix1
+|\  
+| * 052e60b hotfix1.b
+| * f85ba36 hotfix1.a
+|/  
+*   654399b Merge f5
+|\  
+| * 26b1ff6 f5.b
+| * 0f6a625 f5.a
+|/  
+*   f71b350 Merge f4
+|\  
+| * 0d1ea98 f4.b
+| * 4b08b61 f4.a
+|/  
+| * 64bb9d6 (tag: v1.2) hotfix2.b
+| * 4c93ec5 hotfix2.a
+| * 4c4ff60 (tag: v1.1) hotfix1.b
+| * ffbcea0 hotfix1.a
+|/  
+*   346dedf (tag: v1.0) Merge f3
+|\  
+| * 459ff52 f3.b
+| * 1eee89b f3.a
+|/  
+*   d86c8ee Merge f2
+|\  
+| * d4651a0 f2.b
+| * 8c7d4b4 f2.a
+|/  
+*   055128d Merge f1
+|\  
+| * 2f2a77c f1.b
+| * 33a0c4e f1.a
+|/  
+* f0e0e1c start
+```
