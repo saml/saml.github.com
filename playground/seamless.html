@@ -1,0 +1,17 @@
+<!doctype html>
+<title>Seamless</title>
+<meta charset="utf-8">
+<body>
+<script>
+function parseQueryString(query) {
+    var args = {};
+    query.split(/&/).forEach(function(kv) {
+        var splitted = kv.split(/=/);
+        args[splitted[0]] = splitted[1];
+    });
+    return args;
+}
+var url = parseQueryString(window.location.search.substring(1))['url'] || 'http://i.imgur.com/x3HzxQW.jpg';
+document.body.style.background = 'transparent url('+url+') repeat';
+</script>
+</body>
