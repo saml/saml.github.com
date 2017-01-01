@@ -1,6 +1,6 @@
 highlighter: true
 permalink: pretty
-markdown: redcarpet
+markdown: kramdown
 redcarpet: 
   extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 title: "webscale"
