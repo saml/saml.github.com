@@ -1,13 +1,11 @@
-highlighter: true
+highlighter: rouge
 permalink: pretty
 markdown: kramdown
-redcarpet: 
-  extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 title: "webscale"
 author:
   name: "saml"
   github: "saml"
 description: "webscale"
 urls:
-  base: "http://i.webscale.info"
+  base: "https://www.webscale.info"
   cdn: ""
