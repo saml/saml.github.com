@@ -44,7 +44,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/01%EC%B0%BD%EC%84%B801%EC%9E%A51.6x.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/01%EC%B0%BD%EC%84%B801%EC%9E%A51.6x.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>02출애 (01:10:20 )</title>
 	<description>02출애 (01:10:20 )</description>
@@ -54,7 +54,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/02%EC%B6%9C%EC%95%A001%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/02%EC%B6%9C%EC%95%A001%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>03레위 (51:12 )</title>
 	<description>03레위 (51:12 )</description>
@@ -64,7 +64,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/03%EB%A0%88%EC%9C%8401%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/03%EB%A0%88%EC%9C%8401%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>04민수 ( 01:12:41 )</title>
 	<description>04민수 ( 01:12:41 )</description>
@@ -74,7 +74,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/04%EB%AF%BC%EC%88%9801%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/04%EB%AF%BC%EC%88%9801%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>05신명 ( 01:05:26 )</title>
 	<description>05신명 ( 01:05:26 )</description>
@@ -84,7 +84,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/05%EC%8B%A0%EB%AA%8501%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/05%EC%8B%A0%EB%AA%8501%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>06여호 ( 42:53 )</title>
 	<description>06여호 ( 42:53 )</description>
@@ -94,7 +94,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/06%EC%97%AC%ED%98%B801%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/06%EC%97%AC%ED%98%B801%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>07사사  ( 44:49 )</title>
 	<description>07사사  ( 44:49 )</description>
@@ -104,7 +104,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/07%EC%82%AC%EC%82%AC01%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/07%EC%82%AC%EC%82%AC01%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>08룻기 ( 06:19 )</title>
 	<description>08룻기 ( 06:19 )</description>
@@ -114,7 +114,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/08%EB%A3%BB%EA%B8%B001%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/08%EB%A3%BB%EA%B8%B001%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>09삼상 (01:0:28 )</title>
 	<description>09삼상 (01:0:28 )</description>
@@ -124,7 +124,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/09%EC%82%BC%EC%83%8101%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/09%EC%82%BC%EC%83%8101%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>10삼하 ( 50:32 )</title>
 	<description>10삼하 ( 50:32 )</description>
@@ -134,7 +134,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/10%EC%82%BC%ED%95%9801%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/10%EC%82%BC%ED%95%9801%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>11왕상 (58:26 )</title>
 	<description>11왕상 (58:26 )</description>
@@ -144,7 +144,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/11%EC%99%95%EC%83%8101%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/11%EC%99%95%EC%83%8101%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>12왕하 ( 55:13 )</title>
 	<description>12왕하 ( 55:13 )</description>
@@ -154,7 +154,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/12%EC%99%95%ED%95%9801%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/12%EC%99%95%ED%95%9801%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>13대상 ( 54:45 )</title>
 	<description>13대상 ( 54:45 )</description>
@@ -164,7 +164,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/13%EB%8C%80%EC%83%8101%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/13%EB%8C%80%EC%83%8101%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>14대하 ( 01:05:57 )</title>
 	<description>14대하 ( 01:05:57 )</description>
@@ -174,7 +174,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/14%EB%8C%80%ED%95%9801%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/14%EB%8C%80%ED%95%9801%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>15스라 ( 17:41 )</title>
 	<description>15스라 ( 17:41 )</description>
@@ -184,7 +184,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/15%EC%8A%A4%EB%9D%BC01%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/15%EC%8A%A4%EB%9D%BC01%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>16느헤 ( 26:37 )</title>
 	<description>16느헤 ( 26:37 )</description>
@@ -194,7 +194,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/16%EB%8A%90%ED%97%A401%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/16%EB%8A%90%ED%97%A401%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>17스더 ( 12:38 )</title>
 	<description>17스더 ( 12:38 )</description>
@@ -204,7 +204,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/17%EC%8A%A4%EB%8D%9401%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/17%EC%8A%A4%EB%8D%9401%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>18욥기  ( 48:22 )</title>
 	<description>18욥기  ( 48:22 )</description>
@@ -214,7 +214,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/18%EC%9A%A5%EA%B8%B001%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/18%EC%9A%A5%EA%B8%B001%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>19시편 (02:01:55 )</title>
 	<description>19시편 (02:01:55 )</description>
@@ -224,7 +224,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/19%EC%8B%9C%ED%8E%B8.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/19%EC%8B%9C%ED%8E%B8.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>20잠언 ( 40:03 )</title>
 	<description>20잠언 ( 40:03 )</description>
@@ -234,7 +234,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/20%EC%9E%A0%EC%96%B801%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/20%EC%9E%A0%EC%96%B801%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>21전도 ( 14:41 )</title>
 	<description>21전도 ( 14:41 )</description>
@@ -244,7 +244,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/21%EC%A0%84%EB%8F%8401%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/21%EC%A0%84%EB%8F%8401%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>22아가 (07:01 )</title>
 	<description>22아가 (07:01 )</description>
@@ -254,7 +254,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/22%EC%95%84%EA%B0%8001%EC%9E%A5.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/22%EC%95%84%EA%B0%8001%EC%9E%A5.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>23이사</title>
 	<description>23이사</description>
@@ -264,7 +264,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/23%EC%9D%B4%EC%82%AC.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/23%EC%9D%B4%EC%82%AC.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>24예레</title>
 	<description>24예레</description>
@@ -274,7 +274,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/24%EC%98%88%EB%A0%88.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/24%EC%98%88%EB%A0%88.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>25애가</title>
 	<description>25애가</description>
@@ -284,7 +284,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/25%EC%95%A0%EA%B0%80.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/25%EC%95%A0%EA%B0%80.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>26스겔</title>
 	<description>26스겔</description>
@@ -294,7 +294,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/26%EC%8A%A4%EA%B2%94.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/26%EC%8A%A4%EA%B2%94.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>27다니</title>
 	<description>27다니</description>
@@ -304,7 +304,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/27%EB%8B%A4%EB%8B%88.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/27%EB%8B%A4%EB%8B%88.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>28호세</title>
 	<description>28호세</description>
@@ -314,7 +314,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/28%ED%98%B8%EC%84%B8.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/28%ED%98%B8%EC%84%B8.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>29요엘</title>
 	<description>29요엘</description>
@@ -324,7 +324,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/29%EC%9A%94%EC%97%98.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/29%EC%9A%94%EC%97%98.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>30아모</title>
 	<description>30아모</description>
@@ -334,7 +334,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/30%EC%95%84%EB%AA%A8.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/30%EC%95%84%EB%AA%A8.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>31오바</title>
 	<description>31오바</description>
@@ -344,7 +344,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/31%EC%98%A4%EB%B0%94.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/31%EC%98%A4%EB%B0%94.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>32요나</title>
 	<description>32요나</description>
@@ -354,7 +354,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/32%EC%9A%94%EB%82%98.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/32%EC%9A%94%EB%82%98.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>33미가</title>
 	<description>33미가</description>
@@ -364,7 +364,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/33%EB%AF%B8%EA%B0%80.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/33%EB%AF%B8%EA%B0%80.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>34나훔</title>
 	<description>34나훔</description>
@@ -374,7 +374,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/34%EB%82%98%ED%9B%94.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/34%EB%82%98%ED%9B%94.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>35하박</title>
 	<description>35하박</description>
@@ -384,7 +384,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/35%ED%95%98%EB%B0%95.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/35%ED%95%98%EB%B0%95.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>36스바</title>
 	<description>36스바</description>
@@ -394,7 +394,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/36%EC%8A%A4%EB%B0%94.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/36%EC%8A%A4%EB%B0%94.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>37학개</title>
 	<description>37학개</description>
@@ -404,7 +404,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/37%ED%95%99%EA%B0%9C.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/37%ED%95%99%EA%B0%9C.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>38스가</title>
 	<description>38스가</description>
@@ -414,7 +414,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/38%EC%8A%A4%EA%B0%80.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/38%EC%8A%A4%EA%B0%80.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>39말라</title>
 	<description>39말라</description>
@@ -424,7 +424,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/39%EB%A7%90%EB%9D%BC.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/39%EB%A7%90%EB%9D%BC.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>40마태</title>
 	<description>40마태</description>
@@ -434,7 +434,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/40%EB%A7%88%ED%83%9C.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/40%EB%A7%88%ED%83%9C.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>41마가</title>
 	<description>41마가</description>
@@ -444,7 +444,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/41%EB%A7%88%EA%B0%80.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/41%EB%A7%88%EA%B0%80.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>42누가</title>
 	<description>42누가</description>
@@ -454,7 +454,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/42%EB%88%84%EA%B0%80.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/42%EB%88%84%EA%B0%80.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>43요한</title>
 	<description>43요한</description>
@@ -464,7 +464,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/43%EC%9A%94%ED%95%9C.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/43%EC%9A%94%ED%95%9C.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>44사도</title>
 	<description>44사도</description>
@@ -474,7 +474,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/44%EC%82%AC%EB%8F%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/44%EC%82%AC%EB%8F%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>45로마서</title>
 	<description>45로마서</description>
@@ -484,7 +484,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/45%EB%A1%9C%EB%A7%88%EC%84%9C.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/45%EB%A1%9C%EB%A7%88%EC%84%9C.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>46고전</title>
 	<description>46고전</description>
@@ -494,7 +494,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/46%EA%B3%A0%EC%A0%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/46%EA%B3%A0%EC%A0%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>47고후</title>
 	<description>47고후</description>
@@ -504,7 +504,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/47%EA%B3%A0%ED%9B%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/47%EA%B3%A0%ED%9B%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>48갈라</title>
 	<description>48갈라</description>
@@ -514,7 +514,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/48%EA%B0%88%EB%9D%BC.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/48%EA%B0%88%EB%9D%BC.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>49에베</title>
 	<description>49에베</description>
@@ -524,7 +524,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/49%EC%97%90%EB%B2%A0.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/49%EC%97%90%EB%B2%A0.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>50빌립</title>
 	<description>50빌립</description>
@@ -534,7 +534,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/50%EB%B9%8C%EB%A6%BD.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/50%EB%B9%8C%EB%A6%BD.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>51골로</title>
 	<description>51골로</description>
@@ -544,7 +544,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/51%EA%B3%A8%EB%A1%9C.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/51%EA%B3%A8%EB%A1%9C.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>52살전</title>
 	<description>52살전</description>
@@ -554,7 +554,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/52%EC%82%B4%EC%A0%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/52%EC%82%B4%EC%A0%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>53살후</title>
 	<description>53살후</description>
@@ -564,7 +564,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/53%EC%82%B4%ED%9B%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/53%EC%82%B4%ED%9B%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>54딤전</title>
 	<description>54딤전</description>
@@ -574,7 +574,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/54%EB%94%A4%EC%A0%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/54%EB%94%A4%EC%A0%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>55딤후</title>
 	<description>55딤후</description>
@@ -584,7 +584,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/55%EB%94%A4%ED%9B%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/55%EB%94%A4%ED%9B%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>56디도</title>
 	<description>56디도</description>
@@ -594,7 +594,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/56%EB%94%94%EB%8F%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/56%EB%94%94%EB%8F%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>57빌레</title>
 	<description>57빌레</description>
@@ -604,7 +604,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/57%EB%B9%8C%EB%A0%88.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/57%EB%B9%8C%EB%A0%88.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>58히브</title>
 	<description>58히브</description>
@@ -614,7 +614,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/58%ED%9E%88%EB%B8%8C.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/58%ED%9E%88%EB%B8%8C.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>59야고</title>
 	<description>59야고</description>
@@ -624,7 +624,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/59%EC%95%BC%EA%B3%A0.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/59%EC%95%BC%EA%B3%A0.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>60벧전</title>
 	<description>60벧전</description>
@@ -634,7 +634,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/60%EB%B2%A7%EC%A0%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/60%EB%B2%A7%EC%A0%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>61벧후</title>
 	<description>61벧후</description>
@@ -644,7 +644,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/61%EB%B2%A7%ED%9B%84.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/61%EB%B2%A7%ED%9B%84.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>62요일</title>
 	<description>62요일</description>
@@ -654,7 +654,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/62%EC%9A%94%EC%9D%BC.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/62%EC%9A%94%EC%9D%BC.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>63요이</title>
 	<description>63요이</description>
@@ -664,7 +664,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/63%EC%9A%94%EC%9D%B4.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/63%EC%9A%94%EC%9D%B4.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>64요삼</title>
 	<description>64요삼</description>
@@ -674,7 +674,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/64%EC%9A%94%EC%82%BC.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/64%EC%9A%94%EC%82%BC.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>65유다</title>
 	<description>65유다</description>
@@ -684,7 +684,7 @@ Array.from(document.querySelectorAll('p a')).forEach((x) => {
 	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/65%EC%9C%A0%EB%8B%A4.mp3" type="audio/mpeg" />
 	<guid>http://gracester.com/wp-content/uploads/2018/08/65%EC%9C%A0%EB%8B%A4.mp3</guid>
 	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
-</item> debugger eval code:2:2
+</item>  
 <item>
 	<title>66계시</title>
 	<description>66계시</description>
