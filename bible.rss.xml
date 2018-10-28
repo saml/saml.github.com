@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+<channel>
+<!--
+Array.from(document.querySelectorAll('p a')).forEach((x) => {
+	console.log(`<item>
+	<title>${x.innerText}</title>
+	<description>${x.innerText}</description>
+	<itunes:summary>${x.innerText}</itunes:summary>
+	<itunes:subtitle>${x.innerText}</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="${x.href}" type="audio/mpeg" />
+	<guid>${x.href}</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item>`);
+});
+-->
+	<link>http://gracester.com</link>
+	<language>ko</language>
+	<copyright>&#xA9;2018</copyright>
+	<webMaster>your@email.com (Your Name)</webMaster>
+	<managingEditor>your@email.com (Your Name)</managingEditor>
+	<itunes:owner>
+		<itunes:name>Your Name</itunes:name>
+		<itunes:email>your@email.com</itunes:email>
+	</itunes:owner>
+	<itunes:keywords>separate, by, comma, and, space</itunes:keywords>
+	<itunes:explicit>no</itunes:explicit>
+	<atom:link href="http://gracester.com/feed/" rel="self" type="application/rss+xml" />
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+	<title>1.6x 한국어 언어 성경 읽기</title>
+	<itunes:author>Gracester Jesus Disciples Fellowship</itunes:author>
+	<description>1.6x 한국어 언어 성경 읽기</description>
+	<itunes:summary>1.6x 한국어 언어 성경 읽기</itunes:summary>
+	<itunes:subtitle>1.6x 한국어 언어 성경 읽기</itunes:subtitle>
+	<lastBuildDate>Sat, 27 Oct 2018 12:00:00 EST</lastBuildDate>
+
+<item>
+	<title>01창세 ( 01:29:07 )</title>
+	<description>01창세 ( 01:29:07 )</description>
+	<itunes:summary>01창세 ( 01:29:07 )</itunes:summary>
+	<itunes:subtitle>01창세 ( 01:29:07 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/01%EC%B0%BD%EC%84%B801%EC%9E%A51.6x.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/01%EC%B0%BD%EC%84%B801%EC%9E%A51.6x.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>02출애 (01:10:20 )</title>
+	<description>02출애 (01:10:20 )</description>
+	<itunes:summary>02출애 (01:10:20 )</itunes:summary>
+	<itunes:subtitle>02출애 (01:10:20 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/02%EC%B6%9C%EC%95%A001%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/02%EC%B6%9C%EC%95%A001%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>03레위 (51:12 )</title>
+	<description>03레위 (51:12 )</description>
+	<itunes:summary>03레위 (51:12 )</itunes:summary>
+	<itunes:subtitle>03레위 (51:12 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/03%EB%A0%88%EC%9C%8401%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/03%EB%A0%88%EC%9C%8401%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>04민수 ( 01:12:41 )</title>
+	<description>04민수 ( 01:12:41 )</description>
+	<itunes:summary>04민수 ( 01:12:41 )</itunes:summary>
+	<itunes:subtitle>04민수 ( 01:12:41 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/04%EB%AF%BC%EC%88%9801%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/04%EB%AF%BC%EC%88%9801%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>05신명 ( 01:05:26 )</title>
+	<description>05신명 ( 01:05:26 )</description>
+	<itunes:summary>05신명 ( 01:05:26 )</itunes:summary>
+	<itunes:subtitle>05신명 ( 01:05:26 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/05%EC%8B%A0%EB%AA%8501%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/05%EC%8B%A0%EB%AA%8501%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>06여호 ( 42:53 )</title>
+	<description>06여호 ( 42:53 )</description>
+	<itunes:summary>06여호 ( 42:53 )</itunes:summary>
+	<itunes:subtitle>06여호 ( 42:53 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/06%EC%97%AC%ED%98%B801%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/06%EC%97%AC%ED%98%B801%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>07사사  ( 44:49 )</title>
+	<description>07사사  ( 44:49 )</description>
+	<itunes:summary>07사사  ( 44:49 )</itunes:summary>
+	<itunes:subtitle>07사사  ( 44:49 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/07%EC%82%AC%EC%82%AC01%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/07%EC%82%AC%EC%82%AC01%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>08룻기 ( 06:19 )</title>
+	<description>08룻기 ( 06:19 )</description>
+	<itunes:summary>08룻기 ( 06:19 )</itunes:summary>
+	<itunes:subtitle>08룻기 ( 06:19 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/08%EB%A3%BB%EA%B8%B001%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/08%EB%A3%BB%EA%B8%B001%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>09삼상 (01:0:28 )</title>
+	<description>09삼상 (01:0:28 )</description>
+	<itunes:summary>09삼상 (01:0:28 )</itunes:summary>
+	<itunes:subtitle>09삼상 (01:0:28 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/09%EC%82%BC%EC%83%8101%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/09%EC%82%BC%EC%83%8101%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>10삼하 ( 50:32 )</title>
+	<description>10삼하 ( 50:32 )</description>
+	<itunes:summary>10삼하 ( 50:32 )</itunes:summary>
+	<itunes:subtitle>10삼하 ( 50:32 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/10%EC%82%BC%ED%95%9801%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/10%EC%82%BC%ED%95%9801%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>11왕상 (58:26 )</title>
+	<description>11왕상 (58:26 )</description>
+	<itunes:summary>11왕상 (58:26 )</itunes:summary>
+	<itunes:subtitle>11왕상 (58:26 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/11%EC%99%95%EC%83%8101%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/11%EC%99%95%EC%83%8101%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>12왕하 ( 55:13 )</title>
+	<description>12왕하 ( 55:13 )</description>
+	<itunes:summary>12왕하 ( 55:13 )</itunes:summary>
+	<itunes:subtitle>12왕하 ( 55:13 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/12%EC%99%95%ED%95%9801%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/12%EC%99%95%ED%95%9801%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>13대상 ( 54:45 )</title>
+	<description>13대상 ( 54:45 )</description>
+	<itunes:summary>13대상 ( 54:45 )</itunes:summary>
+	<itunes:subtitle>13대상 ( 54:45 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/13%EB%8C%80%EC%83%8101%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/13%EB%8C%80%EC%83%8101%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>14대하 ( 01:05:57 )</title>
+	<description>14대하 ( 01:05:57 )</description>
+	<itunes:summary>14대하 ( 01:05:57 )</itunes:summary>
+	<itunes:subtitle>14대하 ( 01:05:57 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/14%EB%8C%80%ED%95%9801%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/14%EB%8C%80%ED%95%9801%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>15스라 ( 17:41 )</title>
+	<description>15스라 ( 17:41 )</description>
+	<itunes:summary>15스라 ( 17:41 )</itunes:summary>
+	<itunes:subtitle>15스라 ( 17:41 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/15%EC%8A%A4%EB%9D%BC01%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/15%EC%8A%A4%EB%9D%BC01%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>16느헤 ( 26:37 )</title>
+	<description>16느헤 ( 26:37 )</description>
+	<itunes:summary>16느헤 ( 26:37 )</itunes:summary>
+	<itunes:subtitle>16느헤 ( 26:37 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/16%EB%8A%90%ED%97%A401%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/16%EB%8A%90%ED%97%A401%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>17스더 ( 12:38 )</title>
+	<description>17스더 ( 12:38 )</description>
+	<itunes:summary>17스더 ( 12:38 )</itunes:summary>
+	<itunes:subtitle>17스더 ( 12:38 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/17%EC%8A%A4%EB%8D%9401%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/17%EC%8A%A4%EB%8D%9401%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>18욥기  ( 48:22 )</title>
+	<description>18욥기  ( 48:22 )</description>
+	<itunes:summary>18욥기  ( 48:22 )</itunes:summary>
+	<itunes:subtitle>18욥기  ( 48:22 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/18%EC%9A%A5%EA%B8%B001%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/18%EC%9A%A5%EA%B8%B001%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>19시편 (02:01:55 )</title>
+	<description>19시편 (02:01:55 )</description>
+	<itunes:summary>19시편 (02:01:55 )</itunes:summary>
+	<itunes:subtitle>19시편 (02:01:55 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/19%EC%8B%9C%ED%8E%B8.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/19%EC%8B%9C%ED%8E%B8.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>20잠언 ( 40:03 )</title>
+	<description>20잠언 ( 40:03 )</description>
+	<itunes:summary>20잠언 ( 40:03 )</itunes:summary>
+	<itunes:subtitle>20잠언 ( 40:03 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/20%EC%9E%A0%EC%96%B801%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/20%EC%9E%A0%EC%96%B801%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>21전도 ( 14:41 )</title>
+	<description>21전도 ( 14:41 )</description>
+	<itunes:summary>21전도 ( 14:41 )</itunes:summary>
+	<itunes:subtitle>21전도 ( 14:41 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/21%EC%A0%84%EB%8F%8401%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/21%EC%A0%84%EB%8F%8401%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>22아가 (07:01 )</title>
+	<description>22아가 (07:01 )</description>
+	<itunes:summary>22아가 (07:01 )</itunes:summary>
+	<itunes:subtitle>22아가 (07:01 )</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/22%EC%95%84%EA%B0%8001%EC%9E%A5.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/22%EC%95%84%EA%B0%8001%EC%9E%A5.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>23이사</title>
+	<description>23이사</description>
+	<itunes:summary>23이사</itunes:summary>
+	<itunes:subtitle>23이사</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/23%EC%9D%B4%EC%82%AC.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/23%EC%9D%B4%EC%82%AC.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>24예레</title>
+	<description>24예레</description>
+	<itunes:summary>24예레</itunes:summary>
+	<itunes:subtitle>24예레</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/24%EC%98%88%EB%A0%88.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/24%EC%98%88%EB%A0%88.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>25애가</title>
+	<description>25애가</description>
+	<itunes:summary>25애가</itunes:summary>
+	<itunes:subtitle>25애가</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/25%EC%95%A0%EA%B0%80.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/25%EC%95%A0%EA%B0%80.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>26스겔</title>
+	<description>26스겔</description>
+	<itunes:summary>26스겔</itunes:summary>
+	<itunes:subtitle>26스겔</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/26%EC%8A%A4%EA%B2%94.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/26%EC%8A%A4%EA%B2%94.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>27다니</title>
+	<description>27다니</description>
+	<itunes:summary>27다니</itunes:summary>
+	<itunes:subtitle>27다니</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/27%EB%8B%A4%EB%8B%88.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/27%EB%8B%A4%EB%8B%88.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>28호세</title>
+	<description>28호세</description>
+	<itunes:summary>28호세</itunes:summary>
+	<itunes:subtitle>28호세</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/28%ED%98%B8%EC%84%B8.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/28%ED%98%B8%EC%84%B8.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>29요엘</title>
+	<description>29요엘</description>
+	<itunes:summary>29요엘</itunes:summary>
+	<itunes:subtitle>29요엘</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/29%EC%9A%94%EC%97%98.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/29%EC%9A%94%EC%97%98.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>30아모</title>
+	<description>30아모</description>
+	<itunes:summary>30아모</itunes:summary>
+	<itunes:subtitle>30아모</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/30%EC%95%84%EB%AA%A8.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/30%EC%95%84%EB%AA%A8.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>31오바</title>
+	<description>31오바</description>
+	<itunes:summary>31오바</itunes:summary>
+	<itunes:subtitle>31오바</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/31%EC%98%A4%EB%B0%94.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/31%EC%98%A4%EB%B0%94.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>32요나</title>
+	<description>32요나</description>
+	<itunes:summary>32요나</itunes:summary>
+	<itunes:subtitle>32요나</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/32%EC%9A%94%EB%82%98.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/32%EC%9A%94%EB%82%98.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>33미가</title>
+	<description>33미가</description>
+	<itunes:summary>33미가</itunes:summary>
+	<itunes:subtitle>33미가</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/33%EB%AF%B8%EA%B0%80.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/33%EB%AF%B8%EA%B0%80.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>34나훔</title>
+	<description>34나훔</description>
+	<itunes:summary>34나훔</itunes:summary>
+	<itunes:subtitle>34나훔</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/34%EB%82%98%ED%9B%94.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/34%EB%82%98%ED%9B%94.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>35하박</title>
+	<description>35하박</description>
+	<itunes:summary>35하박</itunes:summary>
+	<itunes:subtitle>35하박</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/35%ED%95%98%EB%B0%95.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/35%ED%95%98%EB%B0%95.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>36스바</title>
+	<description>36스바</description>
+	<itunes:summary>36스바</itunes:summary>
+	<itunes:subtitle>36스바</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/36%EC%8A%A4%EB%B0%94.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/36%EC%8A%A4%EB%B0%94.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>37학개</title>
+	<description>37학개</description>
+	<itunes:summary>37학개</itunes:summary>
+	<itunes:subtitle>37학개</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/37%ED%95%99%EA%B0%9C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/37%ED%95%99%EA%B0%9C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>38스가</title>
+	<description>38스가</description>
+	<itunes:summary>38스가</itunes:summary>
+	<itunes:subtitle>38스가</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/38%EC%8A%A4%EA%B0%80.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/38%EC%8A%A4%EA%B0%80.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>39말라</title>
+	<description>39말라</description>
+	<itunes:summary>39말라</itunes:summary>
+	<itunes:subtitle>39말라</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/39%EB%A7%90%EB%9D%BC.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/39%EB%A7%90%EB%9D%BC.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>40마태</title>
+	<description>40마태</description>
+	<itunes:summary>40마태</itunes:summary>
+	<itunes:subtitle>40마태</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/40%EB%A7%88%ED%83%9C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/40%EB%A7%88%ED%83%9C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>41마가</title>
+	<description>41마가</description>
+	<itunes:summary>41마가</itunes:summary>
+	<itunes:subtitle>41마가</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/41%EB%A7%88%EA%B0%80.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/41%EB%A7%88%EA%B0%80.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>42누가</title>
+	<description>42누가</description>
+	<itunes:summary>42누가</itunes:summary>
+	<itunes:subtitle>42누가</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/42%EB%88%84%EA%B0%80.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/42%EB%88%84%EA%B0%80.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>43요한</title>
+	<description>43요한</description>
+	<itunes:summary>43요한</itunes:summary>
+	<itunes:subtitle>43요한</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/43%EC%9A%94%ED%95%9C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/43%EC%9A%94%ED%95%9C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>44사도</title>
+	<description>44사도</description>
+	<itunes:summary>44사도</itunes:summary>
+	<itunes:subtitle>44사도</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/44%EC%82%AC%EB%8F%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/44%EC%82%AC%EB%8F%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>45로마서</title>
+	<description>45로마서</description>
+	<itunes:summary>45로마서</itunes:summary>
+	<itunes:subtitle>45로마서</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/45%EB%A1%9C%EB%A7%88%EC%84%9C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/45%EB%A1%9C%EB%A7%88%EC%84%9C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>46고전</title>
+	<description>46고전</description>
+	<itunes:summary>46고전</itunes:summary>
+	<itunes:subtitle>46고전</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/46%EA%B3%A0%EC%A0%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/46%EA%B3%A0%EC%A0%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>47고후</title>
+	<description>47고후</description>
+	<itunes:summary>47고후</itunes:summary>
+	<itunes:subtitle>47고후</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/47%EA%B3%A0%ED%9B%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/47%EA%B3%A0%ED%9B%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>48갈라</title>
+	<description>48갈라</description>
+	<itunes:summary>48갈라</itunes:summary>
+	<itunes:subtitle>48갈라</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/48%EA%B0%88%EB%9D%BC.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/48%EA%B0%88%EB%9D%BC.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>49에베</title>
+	<description>49에베</description>
+	<itunes:summary>49에베</itunes:summary>
+	<itunes:subtitle>49에베</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/49%EC%97%90%EB%B2%A0.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/49%EC%97%90%EB%B2%A0.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>50빌립</title>
+	<description>50빌립</description>
+	<itunes:summary>50빌립</itunes:summary>
+	<itunes:subtitle>50빌립</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/50%EB%B9%8C%EB%A6%BD.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/50%EB%B9%8C%EB%A6%BD.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>51골로</title>
+	<description>51골로</description>
+	<itunes:summary>51골로</itunes:summary>
+	<itunes:subtitle>51골로</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/51%EA%B3%A8%EB%A1%9C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/51%EA%B3%A8%EB%A1%9C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>52살전</title>
+	<description>52살전</description>
+	<itunes:summary>52살전</itunes:summary>
+	<itunes:subtitle>52살전</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/52%EC%82%B4%EC%A0%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/52%EC%82%B4%EC%A0%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>53살후</title>
+	<description>53살후</description>
+	<itunes:summary>53살후</itunes:summary>
+	<itunes:subtitle>53살후</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/53%EC%82%B4%ED%9B%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/53%EC%82%B4%ED%9B%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>54딤전</title>
+	<description>54딤전</description>
+	<itunes:summary>54딤전</itunes:summary>
+	<itunes:subtitle>54딤전</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/54%EB%94%A4%EC%A0%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/54%EB%94%A4%EC%A0%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>55딤후</title>
+	<description>55딤후</description>
+	<itunes:summary>55딤후</itunes:summary>
+	<itunes:subtitle>55딤후</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/55%EB%94%A4%ED%9B%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/55%EB%94%A4%ED%9B%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>56디도</title>
+	<description>56디도</description>
+	<itunes:summary>56디도</itunes:summary>
+	<itunes:subtitle>56디도</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/56%EB%94%94%EB%8F%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/56%EB%94%94%EB%8F%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>57빌레</title>
+	<description>57빌레</description>
+	<itunes:summary>57빌레</itunes:summary>
+	<itunes:subtitle>57빌레</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/57%EB%B9%8C%EB%A0%88.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/57%EB%B9%8C%EB%A0%88.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>58히브</title>
+	<description>58히브</description>
+	<itunes:summary>58히브</itunes:summary>
+	<itunes:subtitle>58히브</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/58%ED%9E%88%EB%B8%8C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/58%ED%9E%88%EB%B8%8C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>59야고</title>
+	<description>59야고</description>
+	<itunes:summary>59야고</itunes:summary>
+	<itunes:subtitle>59야고</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/59%EC%95%BC%EA%B3%A0.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/59%EC%95%BC%EA%B3%A0.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>60벧전</title>
+	<description>60벧전</description>
+	<itunes:summary>60벧전</itunes:summary>
+	<itunes:subtitle>60벧전</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/60%EB%B2%A7%EC%A0%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/60%EB%B2%A7%EC%A0%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>61벧후</title>
+	<description>61벧후</description>
+	<itunes:summary>61벧후</itunes:summary>
+	<itunes:subtitle>61벧후</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/61%EB%B2%A7%ED%9B%84.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/61%EB%B2%A7%ED%9B%84.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>62요일</title>
+	<description>62요일</description>
+	<itunes:summary>62요일</itunes:summary>
+	<itunes:subtitle>62요일</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/62%EC%9A%94%EC%9D%BC.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/62%EC%9A%94%EC%9D%BC.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>63요이</title>
+	<description>63요이</description>
+	<itunes:summary>63요이</itunes:summary>
+	<itunes:subtitle>63요이</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/63%EC%9A%94%EC%9D%B4.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/63%EC%9A%94%EC%9D%B4.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>64요삼</title>
+	<description>64요삼</description>
+	<itunes:summary>64요삼</itunes:summary>
+	<itunes:subtitle>64요삼</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/64%EC%9A%94%EC%82%BC.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/64%EC%9A%94%EC%82%BC.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>65유다</title>
+	<description>65유다</description>
+	<itunes:summary>65유다</itunes:summary>
+	<itunes:subtitle>65유다</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/65%EC%9C%A0%EB%8B%A4.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/65%EC%9C%A0%EB%8B%A4.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item> debugger eval code:2:2
+<item>
+	<title>66계시</title>
+	<description>66계시</description>
+	<itunes:summary>66계시</itunes:summary>
+	<itunes:subtitle>66계시</itunes:subtitle>
+	<itunesu:category itunesu:code="112" />
+	<enclosure url="http://gracester.com/wp-content/uploads/2018/08/66%EA%B3%84%EC%8B%9C.mp3" type="audio/mpeg" />
+	<guid>http://gracester.com/wp-content/uploads/2018/08/66%EA%B3%84%EC%8B%9C.mp3</guid>
+	<pubDate>Sat, 27 Oct 2018 12:00:00 EST</pubDate>
+</item>
+</channel>
+</rss>
